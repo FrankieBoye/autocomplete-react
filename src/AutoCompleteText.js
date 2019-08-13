@@ -4,9 +4,9 @@ export default class AutoCompleteText extends React.Component {
   constructor (props) {
     super(props);
     this.items = [
-      'Lewis',
-      'Max',
-      'Kimi',
+      'Luke Skywalker',
+      'Darth Vader',
+      'Han Solo',
     ];
 
     this.state = {
