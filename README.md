@@ -48,4 +48,4 @@ My approach was to first tackle the autocomplete aspect. Then the 'this.items' a
 
 I played around at length with the API and tried the componentDidMount method to access the data.
 
-My next step would have been to delve deeper into code I have found online. I could also incorporate Axios.
+My next step would have been to delve deeper into code solutions I have found online. I could also incorporate Axios. I then also need to look at styling.
