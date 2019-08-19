@@ -7,11 +7,13 @@ export default class AutoCompleteText extends React.Component {
   constructor (props) {
     super(props);
     this.items = [
-      'Luke Skywalker',
-      'Darth Vader',
-      'Han Solo',
+      'Alain Prost',
+      'Lewis Hamilton',
+      'Sebastian Vettel',
+      'Max Verstappen',
+      'Kimi Raikkonen',
     ];
-//internal data  
+//internal data
     this.state = {
       suggestions: [],
       text: '',
