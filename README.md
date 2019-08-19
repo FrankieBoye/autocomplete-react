@@ -1,12 +1,8 @@
-### Star Wars
-
-#### User Story:
-As a user, I can search for people from the Star Wars movies using the open source Star Wars API
+### Autocomplete with React
 
 #### Description:
-Using the open source Star Wars API (https://swapi.co) this is a small React application which uses an autocomplete search to search for 'People' from the Star Wars movies.
 
-
+A simple autocomplete box using React. The box can be autocompleted with various names.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br>
@@ -38,14 +34,3 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-### App update
-
-This app should be using the Swapi API to provide the names of the Star Wars characters. Unfortunately I have been unable to implement this.
-
-My approach was to first tackle the autocomplete aspect. Then the 'this.items' array should have been replaced by the API data.
-
-I played around at length with the API and tried the componentDidMount method to access the data.
-
-My next step would have been to delve deeper into code solutions I have found online. I could also incorporate Axios. I then also need to look at styling.
