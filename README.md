@@ -2,7 +2,17 @@
 
 #### Description:
 
-A simple autocomplete box using React. The box can be autocompleted with various names.
+A simple autocomplete box using React. The box can be automatically completed with various names.
+
+Enter the first few letters of any of the below to try it out.
+
+```
+Ayrton Senna,
+Lewis Hamilton,
+Sebastian Vettel,
+Max Verstappen,
+Kimi Raikkonen
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br>
