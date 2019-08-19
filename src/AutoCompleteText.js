@@ -7,7 +7,7 @@ export default class AutoCompleteText extends React.Component {
   constructor (props) {
     super(props);
     this.items = [
-      'Alain Prost',
+      'Ayrton Senna',
       'Lewis Hamilton',
       'Sebastian Vettel',
       'Max Verstappen',
