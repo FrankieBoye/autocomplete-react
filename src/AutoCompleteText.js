@@ -1,9 +1,7 @@
-//import react module
 import React from 'react';
-//create class for component
+
 export default class AutoCompleteText extends React.Component {
-  //hardcoded member variable array that can be accessed later
-  //props ensures component set up properly
+
   constructor (props) {
     super(props);
     this.items = [
@@ -13,7 +11,7 @@ export default class AutoCompleteText extends React.Component {
       'Max Verstappen',
       'Kimi Raikkonen',
     ];
-//internal data
+
     this.state = {
       suggestions: [],
       text: '',
@@ -43,9 +41,7 @@ export default class AutoCompleteText extends React.Component {
       return null;
     }
     return (
-      //jsx allows us to write using html tags
-      //map over array output an li
-      // curly braces is evaluated
+
       <ul>
         {suggestions.map((item) => <li onClick={() => this.suggestionSelected(item)}>{item}</li>)}
       </ul>
@@ -55,8 +51,7 @@ export default class AutoCompleteText extends React.Component {
   render () {
     const { text } = this.state;
     return (
-      //text input has onChange event to let us know box is typed in
-      //we also need that text
+
       <div>
         <input value={text} onChange={this.onTextChanged} type="text" />
         {this.renderSuggestions()}
